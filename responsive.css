@@ -1,0 +1,58 @@
+@media (min-width: 800px) {
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .img-one {
+    order: 1;
+  }
+
+  .header {
+    background-image: url(bg-hero-desktop.svg);
+    /* width: 100px; */
+  }
+
+  .stat {
+    order: 0;
+  }
+
+  .stats h3,
+  .stats p {
+    text-align: start;
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .section-info {
+    text-align: start;
+  }
+
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+  }
+
+  .middle {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .build {
+    left: 20%;
+    right: 20%;
+  }
+}
